@@ -1,0 +1,13 @@
+STAGE 03 EAGLE PROBE SUMMARY — EXPLORATION ONLY, NEVER ENTERS CI
+model=Qwen/Qwen2.5-14B-Instruct draft=Zjcxy-SmartAI/Eagle-Qwen2.5-14B-Instruct k_spec=5
+run_seed=20261005-probe02 rows=27
+raw_jsonl_sha256=a0a1fba2825b183019af1a6da64b1f4e3ea30e9c5da47660061649346c3e3409
+
+[batch-1 sequential timing — indicative only, NOT the L4 interleaved measurement;
+ speculative gains shrink with concurrency; L4 stays batch-1 by design]
+tier  4096: A2-bf16: 403.2 tps n=9
+tier  8192: A2-bf16: 694.9 tps n=9
+tier 16384: A2-bf16: 1113.2 tps n=9
+
+[losslessness invariant: greedy C-bf16-eagle vs A2-bf16, must be identical]
+skipped (one of the two arms missing)

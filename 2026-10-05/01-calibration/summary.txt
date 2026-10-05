@@ -1,0 +1,7 @@
+STAGE 01 CALIBRATION SUMMARY — NOT FORMAL MEASUREMENT, NEVER ENTERS CI
+model=Qwen/Qwen2.5-14B-Instruct revision=cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8
+run_seed=20261005-cal01 rows=9
+raw_jsonl_sha256=dd03dded83890ee3c45fea61a4828bf595728705bf0d33e769f2d6f99eaf571e
+tier 4096: n=3 mean_total_tps=408.2
+tier 8192: n=3 mean_total_tps=716.1
+tier 16384: n=3 mean_total_tps=1175.6

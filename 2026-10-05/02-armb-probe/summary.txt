@@ -1,0 +1,19 @@
+STAGE 02 ARM-B RECON SUMMARY — EXPLORATION ONLY, NEVER ENTERS CI
+model=Qwen/Qwen2.5-14B-Instruct run_seed=20261005-probe02
+raw_jsonl_sha256=e1e5c80e2171f4c1ee41c05a097e422a21c7c7f39232b1f1f74bb44cf6f23e55
+acceptance_jsonl_sha256=fff7dd1fb34e23a98bb0149acc3a06385fb7baf43b7c5cf52da66f851d287d65
+
+[throughput: sequential same-night runs — indicative only, NOT the L4 interleaved measurement]
+tier  4096: A-bf16 mean=  402.8 tps (n=9) | B-fp8 mean=  589.0 tps (n=9) | indicative speedup 1.46x
+tier  8192: A-bf16 mean=  662.4 tps (n=9) | B-fp8 mean=  934.1 tps (n=9) | indicative speedup 1.41x
+tier 16384: A-bf16 mean= 1000.2 tps (n=9) | B-fp8 mean= 1299.1 tps (n=9) | indicative speedup 1.30x
+
+[output identity under greedy decoding: FP8 vs BF16, same prompts]
+identical outputs: 0/27 (0%) — divergence is expected; blind quality gate (L5) is the arbiter, not identity
+
+[ngram speculative acceptance simulation: max_n=4, k_spec=5]
+tier  4096: accepted 726/5000 = 0.145
+tier  8192: accepted 789/5139 = 0.154
+tier 16384: accepted 561/5322 = 0.105
+OVERALL ngram acceptance: 2076/15461 = 0.134
+Day-7 checkpoint threshold: >= 0.500 -> BELOW — switch to EAGLE per Protocol Lock

@@ -1,46 +1,5 @@
 
-[1;36m[stage01] run dir: /root/effiq/pilot-logs/2026-10-06/01-trace-pipeline/run_1[0m
-
-[1;36m[stage01] [conv] downloading AzureLLMInferenceTrace_conv_1week.csv (resumable)[0m
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  0 1082M    0  669k    0     0  1095k      0  0:16:52 --:--:--  0:16:52 1095k  5 1082M    5 61.3M    0     0  37.9M      0  0:00:28  0:00:01  0:00:27 60.5M 11 1082M   11  120M    0     0  45.0M      0  0:00:24  0:00:02  0:00:22 58.1M 16 1082M   16  176M    0     0  48.9M      0  0:00:22  0:00:03  0:00:19 58.6M 21 1082M   21  231M    0     0  50.0M      0  0:00:21  0:00:04  0:00:17 57.5M 26 1082M   26  287M    0     0  51.0M      0  0:00:21  0:00:05  0:00:16 57.0M 30 1082M   30  330M    0     0  49.7M      0  0:00:21  0:00:06  0:00:15 53.5M 36 1082M   36  390M    0     0  51.1M      0  0:00:21  0:00:07  0:00:14 54.4M 41 1082M   41  450M    0     0  52.1M      0  0:00:20  0:00:08  0:00:12 54.4M 48 1082M   48  520M    0     0  53.7M      0  0:00:20  0:00:09  0:00:11 57.1M 54 1082M   54  590M    0     0  55.4M      0  0:00:19  0:00:10  0:00:09 60.5M 60 1082M   60  650M    0     0  55.7M      0  0:00:19  0:00:11  0:00:08 63.5M 65 1082M   65  710M    0     0  56.1M      0  0:00:19  0:00:12  0:00:07 63.7M 70 1082M   70  760M    0     0  55.7M      0  0:00:19  0:00:13  0:00:06 62.0M 75 1082M   75  821M    0     0  56.2M      0  0:00:19  0:00:14  0:00:05 61.0M 82 1082M   82  888M    0     0  56.7M      0  0:00:19  0:00:15  0:00:04 59.5M 86 1082M   86  940M    0     0  56.4M      0  0:00:19  0:00:16  0:00:03 58.2M 92 1082M   92  999M    0     0  56.7M      0  0:00:19  0:00:17  0:00:02 58.1M 97 1082M   97 1060M    0     0  56.8M      0  0:00:19  0:00:18  0:00:01 59.7M100 1082M  100 1082M    0     0  57.1M      0  0:00:18  0:00:18 --:--:-- 60.0M
-
-[1;36m[stage01] [code] downloading AzureLLMInferenceTrace_code_1week.csv (resumable)[0m
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  0  659M    0  207k    0     0   331k      0  0:34:01 --:--:--  0:34:01  331k  9  659M    9 60.0M    0     0  36.8M      0  0:00:17  0:00:01  0:00:16 59.7M 16  659M   16  107M    0     0  40.8M      0  0:00:16  0:00:02  0:00:14 53.5M 25  659M   25  170M    0     0  46.0M      0  0:00:14  0:00:03  0:00:11 55.4M 33  659M   33  220M    0     0  46.7M      0  0:00:14  0:00:04  0:00:10 53.9M 42  659M   42  280M    0     0  49.7M      0  0:00:13  0:00:05  0:00:08 55.9M 51  659M   51  340M    0     0  51.0M      0  0:00:12  0:00:06  0:00:06 55.7M 57  659M   57  380M    0     0  49.7M      0  0:00:13  0:00:07  0:00:06 54.4M 66  659M   66  440M    0     0  50.9M      0  0:00:12  0:00:08  0:00:04 54.6M 74  659M   74  492M    0     0  50.9M      0  0:00:12  0:00:09  0:00:03 54.9M 83  659M   83  550M    0     0  51.4M      0  0:00:12  0:00:10  0:00:02 53.2M 93  659M   93  615M    0     0  52.8M      0  0:00:12  0:00:11  0:00:01 55.2M100  659M  100  659M    0     0  53.4M      0  0:00:12  0:00:12 --:--:-- 59.4M
-
-[1;36m[stage01] conv sha256: a0cc9b969a9bbf0f… (1135195393 bytes)[0m
-
-[1;36m[stage01] code sha256: 71de5c55cbc35f8f… (691989454 bytes)[0m
-
-[1;36m[stage01] analyzing traces, selecting slices, building plans[0m
-[conv] rows=27,303,999 span=2024-05-12T00:00:00.001163+00:00 → 2024-05-18T23:59:59.995460+00:00 bad_rows=0
-[code] rows=16,803,695 span=2024-05-10T00:00:00.009930+00:00 → 2024-05-16T23:59:59.929501+00:00 bad_rows=0
-[pair_1] window=2024-05-12T05:00:00+00:00 conv=77,571 code=30,551 merged_sha=0c0fcf14b33ce205…
-[pair_2] window=2024-05-13T05:00:00+00:00 conv=160,461 code=40,353 merged_sha=831d4a8ba47744c5…
-[pair_3] window=2024-05-13T20:00:00+00:00 conv=193,553 code=267,866 merged_sha=f3ab804060981c3e…
-[pair_4] window=2024-05-15T12:00:00+00:00 conv=219,399 code=91,301 merged_sha=8e9753f620d38876…
-[pair_5] window=2024-05-15T21:00:00+00:00 conv=130,303 code=210,675 merged_sha=5784d2d126a7ebc3…
-[pair_6] window=2024-05-16T06:00:00+00:00 conv=197,480 code=41,180 merged_sha=4d2cdcae86b8e621…
-[calibration] window=2024-05-16T10:00:00+00:00 conv=171,054 code=31,950 merged_sha=d9f94896776893e6…
-
-=== stage 01 summary ===
-formal pairs 1..6 + calibration pair selected (seed 20261010)
-  pair_1       2024-05-12T05:00:00+00:00  conv=77,571  code=30,551
-  pair_2       2024-05-13T05:00:00+00:00  conv=160,461  code=40,353
-  pair_3       2024-05-13T20:00:00+00:00  conv=193,553  code=267,866
-  pair_4       2024-05-15T12:00:00+00:00  conv=219,399  code=91,301
-  pair_5       2024-05-15T21:00:00+00:00  conv=130,303  code=210,675
-  pair_6       2024-05-16T06:00:00+00:00  conv=197,480  code=41,180
-  calibration  2024-05-16T10:00:00+00:00  conv=171,054  code=31,950
-anchors written to run dir; plans (bulk) under plans dir — reproducible, not pushed
-
-[1;36m[stage01] ✅ stage 01 COMPLETE[0m
+[1;36m[stage01] this stage is already COMPLETE — nothing to do.[0m
   anchors: /root/effiq/pilot-logs/2026-10-06/01-trace-pipeline/run_1
-  plans:   /root/effiq/trace/plans (pod-local bulk; hash-anchored, reproducible)
-  verify:  bash stages/01-trace-pipeline.sh --verify
-  next:    switch the STAGE file to 02-calibration (not yet shipped)
+  slices:  /root/effiq/pilot-logs/2026-10-06/01-trace-pipeline/run_1/slices.json
+  next:    switch the STAGE file to 02-calibration

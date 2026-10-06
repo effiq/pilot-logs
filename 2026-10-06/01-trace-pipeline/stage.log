@@ -3,3 +3,4 @@
   anchors: /root/effiq/pilot-logs/2026-10-06/01-trace-pipeline/run_1
   slices:  /root/effiq/pilot-logs/2026-10-06/01-trace-pipeline/run_1/slices.json
   next:    switch the STAGE file to 02-calibration
+  (pod wiped and trace artifacts lost? re-run with: --rebuild)

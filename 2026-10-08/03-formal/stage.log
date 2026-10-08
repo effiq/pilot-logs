@@ -171,3 +171,82 @@ To https://github.com/effiq/pilot-logs.git
   [run 2 arm A] t=900s sent=794 done=786/794 errors=0
 [run 2 arm A] block ok: rows=794 ok=794 errors=0 mean_tps=12.11 mean_ttft=0.650s raw_sha=f16983576cba9f10…
 [run 2] summary: paired_ok=794 mean_tps A=12.11 B=20.07 descriptive paired mean ratio B/A=1.6940 (descriptive only — CI sealed in stage 04)
+To https://github.com/effiq/pilot-logs.git
+   07a1703..8c66050  HEAD -> main
+
+[1;36m[stage03] interim push ok (2026-10-08 03-formal run_2 exit=0)[0m
+
+[1;36m[stage03] run 3 / 6 — pair_3, arm order: A B[0m
+
+[1;36m[stage03] run 3: starting Arm A server (BF16 defaults; prefix caching OFF; max_model_len=32768)[0m
+
+[1;36m[stage03] run 3: Arm A server healthy after 50s[0m
+[run 3 arm A] pair_3: merged 461,419 rows → thinned 1,754 offered over 900s (≈1.95 req/s), max ctx 7,845
+  [run 3 arm A] t=30s sent=61 done=46/1754 errors=0
+  [run 3 arm A] t=60s sent=126 done=96/1754 errors=0
+  [run 3 arm A] t=90s sent=190 done=157/1754 errors=0
+  [run 3 arm A] t=120s sent=251 done=220/1754 errors=0
+  [run 3 arm A] t=150s sent=302 done=285/1754 errors=0
+  [run 3 arm A] t=180s sent=361 done=340/1754 errors=0
+  [run 3 arm A] t=210s sent=435 done=395/1754 errors=0
+  [run 3 arm A] t=240s sent=482 done=465/1754 errors=0
+  [run 3 arm A] t=270s sent=554 done=507/1754 errors=0
+  [run 3 arm A] t=300s sent=616 done=561/1754 errors=0
+  [run 3 arm A] t=330s sent=680 done=614/1754 errors=0
+  [run 3 arm A] t=360s sent=770 done=658/1754 errors=0
+  [run 3 arm A] t=390s sent=835 done=705/1754 errors=0
+  [run 3 arm A] t=420s sent=889 done=777/1754 errors=0
+  [run 3 arm A] t=450s sent=933 done=849/1754 errors=0
+  [run 3 arm A] t=480s sent=997 done=901/1754 errors=0
+  [run 3 arm A] t=510s sent=1057 done=966/1754 errors=0
+  [run 3 arm A] t=540s sent=1120 done=1031/1754 errors=0
+  [run 3 arm A] t=570s sent=1176 done=1084/1754 errors=0
+  [run 3 arm A] t=600s sent=1236 done=1138/1754 errors=0
+  [run 3 arm A] t=630s sent=1288 done=1199/1754 errors=0
+  [run 3 arm A] t=660s sent=1355 done=1258/1754 errors=0
+  [run 3 arm A] t=690s sent=1411 done=1321/1754 errors=0
+  [run 3 arm A] t=720s sent=1458 done=1383/1754 errors=0
+  [run 3 arm A] t=750s sent=1514 done=1438/1754 errors=0
+  [run 3 arm A] t=780s sent=1562 done=1489/1754 errors=0
+  [run 3 arm A] t=810s sent=1609 done=1543/1754 errors=0
+  [run 3 arm A] t=840s sent=1650 done=1605/1754 errors=0
+  [run 3 arm A] t=870s sent=1714 done=1664/1754 errors=0
+  [run 3 arm A] t=900s sent=1754 done=1729/1754 errors=0
+[run 3 arm A] block ok: rows=1754 ok=1754 errors=0 mean_tps=1.60 mean_ttft=22.645s raw_sha=a4ecbaa786db447a…
+
+[1;36m[stage03] run 3: starting Arm B server (FP8 dynamic; prefix caching OFF; max_model_len=32768)[0m
+
+[1;36m[stage03] run 3: Arm B server healthy after 50s[0m
+[run 3 arm B] pair_3: merged 461,419 rows → thinned 1,754 offered over 900s (≈1.95 req/s), max ctx 7,845
+  [run 3 arm B] t=30s sent=61 done=51/1754 errors=0
+  [run 3 arm B] t=60s sent=126 done=115/1754 errors=0
+  [run 3 arm B] t=90s sent=190 done=180/1754 errors=0
+  [run 3 arm B] t=120s sent=251 done=242/1754 errors=0
+  [run 3 arm B] t=150s sent=302 done=296/1754 errors=0
+  [run 3 arm B] t=180s sent=361 done=353/1754 errors=0
+  [run 3 arm B] t=210s sent=435 done=414/1754 errors=0
+  [run 3 arm B] t=240s sent=482 done=479/1754 errors=0
+  [run 3 arm B] t=270s sent=554 done=533/1754 errors=0
+  [run 3 arm B] t=300s sent=616 done=602/1754 errors=0
+  [run 3 arm B] t=330s sent=680 done=665/1754 errors=0
+  [run 3 arm B] t=360s sent=770 done=725/1754 errors=0
+  [run 3 arm B] t=390s sent=835 done=822/1754 errors=0
+  [run 3 arm B] t=420s sent=889 done=884/1754 errors=0
+  [run 3 arm B] t=450s sent=933 done=932/1754 errors=0
+  [run 3 arm B] t=480s sent=997 done=985/1754 errors=0
+  [run 3 arm B] t=510s sent=1057 done=1041/1754 errors=0
+  [run 3 arm B] t=540s sent=1120 done=1105/1754 errors=0
+  [run 3 arm B] t=570s sent=1176 done=1170/1754 errors=0
+  [run 3 arm B] t=600s sent=1236 done=1231/1754 errors=0
+  [run 3 arm B] t=630s sent=1288 done=1276/1754 errors=0
+  [run 3 arm B] t=660s sent=1355 done=1349/1754 errors=0
+  [run 3 arm B] t=690s sent=1411 done=1403/1754 errors=0
+  [run 3 arm B] t=720s sent=1458 done=1454/1754 errors=0
+  [run 3 arm B] t=750s sent=1514 done=1496/1754 errors=0
+  [run 3 arm B] t=780s sent=1562 done=1556/1754 errors=0
+  [run 3 arm B] t=810s sent=1609 done=1603/1754 errors=0
+  [run 3 arm B] t=840s sent=1650 done=1645/1754 errors=0
+  [run 3 arm B] t=870s sent=1714 done=1710/1754 errors=0
+  [run 3 arm B] t=900s sent=1754 done=1748/1754 errors=0
+[run 3 arm B] block ok: rows=1754 ok=1754 errors=0 mean_tps=9.07 mean_ttft=1.127s raw_sha=d98fc5f9a8d6ad95…
+[run 3] summary: paired_ok=1754 mean_tps A=1.60 B=9.07 descriptive paired mean ratio B/A=20.3118 (descriptive only — CI sealed in stage 04)

@@ -1,0 +1,19 @@
+
+=== 0. run bookkeeping ===
+new run dir: /root/effiq/pilot-logs/2026-10-08/05-quality-gate/run_1
+
+=== 1. time / host / GPU / engine anchors (L1) ===
+Thu Oct  8 09:18:37 UTC 2026
+c37f4ae1101c
+scripts_rev=8403a600d32ede8a07986eb84080ef0f86136906
+vllm: 0.31.0 (pinned OK)
+gpu: NVIDIA L40S
+banner: L5 BLIND QUALITY GATE — Pilot 002 (serving mode, concurrency 8)
+
+=== 2. frozen evaluation set (reused by hash 728b2f8354701a301467afaf52d643d12a679af5c41542bb1701634e4235cf7d) ===
+reused from: /root/effiq/pilot-logs/2026-10-06/06-quality-gate/run_1/frozen_set.jsonl (sha256 verified 728b2f8354701a301467afaf52d643d12a679af5c41542bb1701634e4235cf7d)
+
+=== generation: arm A (BF16, serving mode, concurrency 8) ===
+starting arm A server (BF16 defaults; prefix caching OFF)
+
+[1;31m[stage05][ERROR] server process died — see /root/effiq/pilot-logs/2026-10-08/05-quality-gate/run_1/server_armA.log[0m

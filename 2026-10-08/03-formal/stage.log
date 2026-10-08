@@ -488,3 +488,16 @@ To https://github.com/effiq/pilot-logs.git
   [run 6 arm A] t=900s sent=946 done=935/946 errors=0
 [run 6 arm A] block ok: rows=946 ok=946 errors=0 mean_tps=11.61 mean_ttft=0.693s raw_sha=92358ec5c7d27603…
 [run 6] summary: paired_ok=946 mean_tps A=11.61 B=20.05 descriptive paired mean ratio B/A=1.7778 (descriptive only — CI sealed in stage 04)
+To https://github.com/effiq/pilot-logs.git
+   b8419bc..fb94c9a  HEAD -> main
+
+[1;36m[stage03] interim push ok (2026-10-08 03-formal run_6 exit=0)[0m
+
+[1;36m[stage03] ✅ stage 03 COMPLETE — 6 formal runs × 2 arm blocks archived[0m
+  operating point: r=1/256 C=4 (frozen by stage 02)
+  disclosure: no grid configuration met the SLO; lightest configuration used, shortfall disclosed per protocol
+  data:   /root/effiq/pilot-logs/2026-10-08/03-formal/run_1 (per-request raw JSONL + per-block markers + per-run summaries)
+  verify: bash stages/03-formal.sh --verify
+  next:   switch the STAGE file to 04-verdict (not yet shipped)
+  sealed: the paired-bootstrap CI (seed 20262002) and the P95 gate are computed
+          only by stage 04 — descriptive means above are not the verdict.

@@ -1,0 +1,22 @@
+
+[1;36m[stage03] preflight asserts[0m
+
+[1;36m[stage03] anchor check: 6 formal plans vs stage-01 manifest[0m
+  [pair_1] rows=108,122 sha256=0c0fcf14b33ce205… OK
+  [pair_2] rows=200,814 sha256=831d4a8ba47744c5… OK
+  [pair_3] rows=461,419 sha256=f3ab804060981c3e… OK
+  [pair_4] rows=310,700 sha256=8e9753f620d38876… OK
+  [pair_5] rows=340,978 sha256=5784d2d126a7ebc3… OK
+  [pair_6] rows=238,660 sha256=4d2cdcae86b8e621… OK
+  total merged rows across 6 formal pairs: 1,660,693
+
+[1;36m[stage03] operating point (frozen by stage 02): r=1/256, C=4 → window 900s[0m
+
+[1;33m[stage03][WARN] FALLBACK OPERATING POINT — no grid configuration met the SLO; lightest configuration used, shortfall disclosed per protocol[0m
+
+[1;36m[stage03] starting formal measurement: 6 runs, block-crossover, operating point r=1/256 C=4[0m
+
+[1;36m[stage03] disclosure (carried into every summary): no grid configuration met the SLO; lightest configuration used, shortfall disclosed per protocol[0m
+
+[1;36m[stage03] run 1 / 6 — pair_1, arm order: A B[0m
+/root/effiq/pilot002/stages/03-formal.sh: line 342: arm: unbound variable
